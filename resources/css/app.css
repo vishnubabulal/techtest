@@ -1,0 +1,66 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Container for articles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Article list styling */
+#articles-list {
+    list-style-type: none;
+}
+
+#articles-list li {
+    padding: 10px;
+    margin: 10px 0;
+    background: #e2e2e2;
+    border-radius: 5px;
+}
+
+/* Article title styling */
+#articles-list li h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Article content styling */
+#articles-list li p {
+    color: #666;
+}
+
+/* Add some spacing for better readability */
+.article {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}
+
+.article-title {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.article-content {
+    font-size: 1em;
+    color: #666;
+}
